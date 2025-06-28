@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mithlesh Singh Patel - Data Scientist Resume</title>
+    <script src="https://cdn.tailwindcss.com"></script> 
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        /* Base styles */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #e9ecef; /* Light background similar to image */
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .resume-container {
+            background-color: #ffffff;
+            border-radius: 8px; /* Slightly less rounded than before */
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 950px; /* Wider to accommodate two distinct columns */
+            display: flex;
+            flex-direction: column; /* Default for mobile */
+            overflow: hidden;
+        }
+
+        /* Two-column layout for desktop */
+        @media (min-width: 768px) {
+            .resume-container {
+                flex-direction: row;
+            }
+        }
+
+        /* Left Column (Sidebar) */
+        .left-column {
+            flex: 0 0 300px; /* Fixed width for left column similar to image */
+            background-color: #f8f9fa; /* Lighter background for sidebar */
+            padding: 25px;
+            border-right: 1px solid #dee2e6; /* Separator */
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Center content like image */
+            text-align: center;
+        }
+        .left-column .profile-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+            border: 3px solid #e0e0e0; /* Subtle border around image */
+        }
+        .left-column h1 {
+            font-size: 1.5rem; /* Name size */
+            font-weight: 700;
+            color: #343a40;
+            margin-bottom: 5px;
+            text-transform: uppercase;
+        }
+        .left-column .web-designer-title {
+            font-size: 0.9rem;
+            color: #6c757d;
+            margin-bottom: 25px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .left-column .contact-info p {
+            font-size: 0.85rem;
+            color: #495057;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center; /* Center contact info */
+        }
+        .left-column .contact-info p svg {
+            margin-right: 8px;
+            height: 16px;
+            width: 16px;
+            color: #4299e1; /* Blue icon color */
+        }
+
+        /* Common Section Titles in Left Column */
+        .left-column .section-title-left {
+            font-size: 1rem;
+            font-weight: 700;
+            color: #343a40;
+            background-color: #e0e0e0; /* Shaded background like image */
+            padding: 8px 0;
+            width: 100%;
+            margin-top: 25px;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .left-column .section-content-left p, .left-column .section-content-left li {
+            font-size: 0.85rem;
+            color: #495057;
+            margin-bottom: 5px;
+            text-align: left; /* Ensure list items are left-aligned */
+        }
+        .left-column .section-content-left ul {
+            list-style: none; /* Remove default bullets */
+            padding-left: 0;
+        }
+        .left-column .section-content-left .skill-item {
+            margin-bottom: 8px;
+            text-align: left;
+        }
+
+        /* Right Column (Main Content) */
+        .right-column {
+            flex: 1;
+            padding: 25px 35px; /* More padding on right side */
+            background-color: #ffffff;
+        }
+        .right-column .section-title-right {
+            font-size: 1.25rem; /* Larger font for main sections */
+            font-weight: 700;
+            color: #343a40;
+            border-bottom: 2px solid #343a40; /* Stronger underline for main sections */
+            padding-bottom: 5px;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .right-column .sub-heading-right {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #343a40;
+            margin-bottom: 5px;
+        }
+        .right-column .date-range-right {
+            font-size: 0.85rem;
+            color: #6c757d;
+            margin-bottom: 10px;
+        }
+        .right-column ul {
+            list-style: disc;
+            margin-left: 20px;
+        }
+        .right-column li {
+            font-size: 0.875rem;
+            color: #495057;
+            margin-bottom: 5px;
+        }
+        
+        /* Specific tweaks for better visual match */
+        .section-separator {
+            width: 100%;
+            border-bottom: 1px solid #e0e0e0;
+            margin: 15px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="resume-container">
+        <div class="left-column">
+            <img src="assets/imgs/resume_profile_pic.jpg" alt="Mithlesh Patel" class="profile-img">
+            <h1>MITHLESH SINGH PATEL</h1>
+            <p class="web-designer-title">DATA SCIENTIST</p> <div class="contact-info">
+                <p>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"></path></svg>
+                    R.G. Multi, 2nd Flat, Bholaram, Ring Road, Indore
+                </p>
+                <p>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M20 3h-3V1h-2v2H9V1H7v2H4c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 18H4V8h16v13z"></path><path d="M19 6H5V4h14v2z"></path></svg>
+                    +91 9522827123
+                </p>
+                <p>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 14H4V8l8 5 8-5v10zm0-12L12 11 4 6h16z"></path></svg>
+                    mithleshsinghpatel779@gmail.com
+                </p>
+                <p>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H12v-4h-2v4H8v-4H6v4H5V7h1v4h1v-4h2v4h2V7h1v10zm6-4h-4V7h4v6z"></path></svg>
+                    <a href="https://github.com/Mithleshpatel09" target="_blank" style="color: inherit; text-decoration: none;">GitHub Profile</a>
+                </p>
+                <p>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H12v-4h-2v4H8v-4H6v4H5V7h1v4h1v-4h2v4h2V7h1v10zm6-4h-4V7h4v6z"></path></svg>
+                    <a href="https://www.linkedin.com/in/mithleshpatel09/" target="_blank" style="color: inherit; text-decoration: none;">LinkedIn Profile</a>
+                </p>
+            </div>
+
+            <h2 class="section-title-left">EDUCATION</h2>
+            <div class="section-content-left">
+                <p class="sub-heading">Bachelor of Technology (B.Tech) - CS & IT</p>
+                <p class="date-range">August 2023 - August 2027 (Expected)</p>
+                <p>IES IPS Academy Indore, Indore</p>
+                <p>Relevant coursework: Data Structures, Algorithms, Database Management, Object-Oriented Programming.</p> <div class="section-separator"></div> <p class="sub-heading">High School (10th & 12th Standard)</p>
+                <p class="date-range">YOUR_10TH_YEAR - YOUR_12TH_YEAR</p> <p>YOUR_HIGH_SCHOOL_NAME, YOUR_CITY</p> <p>Achieved YOUR_10TH_PERCENTAGE% (10th) and YOUR_12TH_PERCENTAGE% (12th).</p>
+            </div>
+
+            <h2 class="section-title-left">SKILLS</h2>
+            <div class="section-content-left">
+                <p class="skill-item"><strong>Programming:</strong> Python (Pandas, NumPy, Matplotlib, Seaborn), SQL, C, C++</p>
+                <p class="skill-item"><strong>Machine Learning:</strong> Scikit-learn, Regression, Classification, Clustering</p>
+                <p class="skill-item"><strong>Data Analysis:</strong> Data Cleaning, EDA, Feature Engineering, Statistical Analysis</p>
+                <p class="skill-item"><strong>Tools & Platforms:</strong> Git, GitHub, VS Code, Jupyter Notebook, Streamlit, Power BI (Basic)</p>
+                <p class="skill-item"><strong>Concepts:</strong> Time-Series Forecasting, Problem Solving, Data Visualization, Communication</p>
+            </div>
+            
+            <h2 class="section-title-left">HOBBIES</h2>
+            <div class="section-content-left">
+                <p>Solving data challenges, exploring new tech trends, reading books, playing strategy games like chess.</p>
+            </div>
+        </div>
+
+        <div class="right-column">
+            <h2 class="section-title-right">PROFILE</h2>
+            <p>
+                Highly motivated B.Tech student with a robust foundation in Computer Science, driven by a profound passion for Data Science and Machine Learning. Proficient in Python, Pandas, Matplotlib, Seaborn, and scikit-learn, with comprehensive hands-on experience in the complete data lifecycle: data cleaning, exploratory data analysis, feature engineering, and building predictive models. Successfully delivered three impactful projects, demonstrating expertise in regression analysis, data visualization, and time-series analysis. Eager to leverage strong analytical and problem-solving skills to contribute to data-driven decision-making in a dynamic environment.
+            </p>
+
+            <h2 class="section-title-right">KEY DATA SCIENCE PROJECTS</h2>
+            <div class="mb-4">
+                <h3 class="sub-heading-right">Sea Level Predictor - Regression Analysis</h3>
+                <p class="date-range-right">Jan 2025 - Feb 2025</p> <ul class="list-disc ml-5">
+                    <li>Developed a robust linear regression model to predict future global sea levels using historical data, achieving [Quantifiable Result, e.g., 'high accuracy in trend prediction'] and visualizing long-term trends.</li>
+                    <li>Implemented advanced data cleaning, outlier detection, and time-series feature engineering techniques (Python, Pandas, SciPy, Matplotlib).</li>
+                    <li>Live Demo: <a href="https://sea-level-predictor-d56qmwsxrzxm3efy7xuevn.streamlit.app/" target="_blank" style="color: #4299e1; text-decoration: none;">Streamlit App</a> | GitHub: <a href="https://github.com/Mithleshpatel09/sea-level-predictor.git" target="_blank" style="color: #4299e1; text-decoration: none;">Repository</a></li>
+                </ul>
+            </div>
+            <div class="mb-4">
+                <h3 class="sub-heading-right">Medical Data Visualizer - Exploratory Data Analysis (EDA)</h3>
+                <p class="date-range-right">Mar 2025 - Apr 2025</p> <ul class="list-disc ml-5">
+                    <li>Analyzed a comprehensive medical examination dataset to uncover correlations between health metrics and cardiovascular disease (Python, Pandas, Seaborn, Matplotlib).</li>
+                    <li>Engineered new features like BMI and normalized categorical variables, preparing data for robust analysis.</li>
+                    <li>Generated insightful categorical plots and correlation heatmaps, providing clear visual evidence of health trends and risk factors.</li>
+                    <li>GitHub: <a href="https://github.com/Mithleshpatel09/medical_data_visualizer-.git" target="_blank" style="color: #4299e1; text-decoration: none;">Repository</a></li>
+                </ul>
+            </div>
+            <div class="mb-4">
+                <h3 class="sub-heading-right">Time-Series Visualizer - Web Traffic Analysis</h3>
+                <p class="date-range-right">May 2025 - Jun 2025</p> <ul class="list-disc ml-5">
+                    <li>Visualized and analyzed daily page views data to identify long-term trends, seasonal patterns, and outliers in web traffic (Python, Pandas, Matplotlib, Seaborn).</li>
+                    <li>Implemented advanced data cleaning and filtering techniques on time-series data for accurate pattern detection.</li>
+                    <li>Developed and presented comprehensive line, bar, and box plots, effectively communicating insights on web engagement.</li>
+                    <li>GitHub: <a href="https://github.com/Mithleshpatel09/time_series_visualizer.git" target="_blank" style="color: #4299e1; text-decoration: none;">Repository</a></li>
+                </ul>
+            </div>
+
+            <h2 class="section-title-right">COURSES & CERTIFICATIONS</h2>
+            <div class="mb-4">
+                <h3 class="sub-heading-right">Data Analysis with Python (FreeCodeCamp)</h3>
+                <p class="date-range-right">October 2024 - February 2025</p>
+                </div>
+
+            <h2 class="section-title-right">EXTRA-CURRICULAR ACTIVITIES</h2>
+            <ul class="list-disc ml-5">
+                <li>Actively participate in online coding challenges (e.g., HackerRank, LeetCode) to sharpen problem-solving and algorithmic skills.</li>
+                <li>Enthusiastic learner, regularly attending tech webinars and workshops on Artificial Intelligence and Machine Learning.</li>
+                <li>Engaged in independent study to explore advanced data analysis techniques and emerging tools.</li>
+            </ul>
+
+        </div>
+    </div>
+</body>
+</html>

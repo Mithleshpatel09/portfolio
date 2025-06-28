@@ -1,0 +1,10 @@
+# Operating System specific files
+.DS_Store
+Thumbs.db
+
+# Build outputs (if any)
+/dist/
+/build/
+
+# VS Code specific files
+.vscode/
